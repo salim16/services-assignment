@@ -10,7 +10,7 @@ export class InactiveUsersComponent implements OnInit {
 
   users: string[];
   // @Input() users: string[];
-  @Output() emitInActiveUserId = new EventEmitter<number>();
+  // @Output() emitInActiveUserId = new EventEmitter<number>();
 
   constructor(private userService: UserService) {}
 
